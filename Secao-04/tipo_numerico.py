@@ -32,3 +32,8 @@ podemos escrever nesse formato 1_000_000 """
 """ declaramos na variavel assim, 1_000_000 mas veja como o python imprime """
 umMilhao = int(1_000_000)
 print(f'1 milhão = {umMilhao}')
+
+# Convertendo um inteiro para foat
+convFloat = float(umMilhao)
+print(f'Valor da variavel convFloat é = {convFloat}')
+print(f'O tipo da variavel convFloat é =', type(convFloat))

@@ -26,3 +26,9 @@ print(f' O resto é: {resto}')
 """ Para fazer um número elevado usa **, ex: 2 elevado a 8 """
 elevado = int(2 ** 8)
 print(f'2 elevado a 8 é: {elevado}')
+
+""" Melhorando a forma de visualizar numeros para nós humanos, 1 milhão - 1000000 é pouco dificil de ver quando nesse formato então
+podemos escrever nesse formato 1_000_000 """
+""" declaramos na variavel assim, 1_000_000 mas veja como o python imprime """
+umMilhao = int(1_000_000)
+print(f'1 milhão = {umMilhao}')
